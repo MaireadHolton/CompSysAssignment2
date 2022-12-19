@@ -4,6 +4,8 @@ Name: Mairead Holton
 ==============================
 Student No. 20099850
 ==============================
+Demo video: https://youtu.be/V2zoofM0-2E
+Code walkthrough: https://github.com/MaireadHolton/CompSysAssignment2
 
 # **BrewBuddy**
 
