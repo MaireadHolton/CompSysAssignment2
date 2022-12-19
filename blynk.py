@@ -7,8 +7,8 @@ from subprocess import call
 
 """preliminary setup of bluetooth speaker done as follows:
    bluetoothctl
-   scan on (discoverMAC addresses of blueooth devices)
-   pair D4:F5:47:D8:96:D8 (MAC address of bluetooth speaker)
+   scan on (discover Device addresses of blueooth devices)
+   pair D4:F5:47:D8:96:D8 (Device address of bluetooth speaker)
    trust D4:F5:47:D8:96:D8 (sets speaker as trusted device)
    connect D4:F5:47:D8:96:D8 (connects to bluetooth speaker)
    quit (to leave bluetoothctl)"""
