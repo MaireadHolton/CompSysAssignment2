@@ -14,7 +14,7 @@ frame = 1
 # Send an email with an attachment using SMTP
 
 def send_mail(eFrom, to, subject, text, attachment):
-    # SMTP Server details: update to your credentials or use class server
+    # SMTP Server details
     smtpServer= 'smtp.mailgun.org'
     smtpUser='postmaster@sandbox7df3e5122abd43299ed70dcd4d221c0e.mailgun.org'
     smtpPassword='2bb84441a7b95f617042aa26c6bec454-48d7d97c-9e8944ac'
@@ -39,14 +39,6 @@ def send_mail(eFrom, to, subject, text, attachment):
     s.quit()
 
 while True:
- temp = (sense.temperature -7)
- if temp <=17:
-  aplay warning.wav
- elif temp >=19:
-  aplay warning.wav
- else:
-  sense.clear()
-
  acceleration = sense.get_accelerometer_raw()
  x = acceleration ['x']
  y = acceleration ['y']
