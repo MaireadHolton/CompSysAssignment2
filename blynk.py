@@ -17,7 +17,7 @@ BLYNK_AUTH = 'bW41ErtD_gpFZjnjTrKxVYdFjIazxoZG'
 # initialize Blynk
 blynk = BlynkLib.Blynk(BLYNK_AUTH)
 
-#initialise SenseHat and camera
+#initialise SenseHat
 sense = SenseHat()
 sense.clear()
 
