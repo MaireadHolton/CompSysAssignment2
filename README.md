@@ -32,6 +32,9 @@ Email delivery service to allow pictures to be sent via email when the fermentat
 Used to send a message from the raspberryPi to the bluetooth speaker. The raspberryPi is operating as a broadcaster/ server to send the warning.wav file to the speaker (which is acting as an observer/ client). THe bluetooth device adress is similar to a MAC address, has a6 byte number which was used to connect the raspberryPi to the speaker. Uses link layer protocol  GAP to broadcast device and GATT to establish a connection between the RaspberryPi and the bluetooth speaker 
 
 #### **Sources**
-[Blynk notifications]: https://community.blynk.cc/t/events-notifications-and-the-use-of-flag-variables/59822
-[Blynk notifications]: https://github.com/blynkkk/lib-python
-[Bluetooth speaker]: https://gist.github.com/actuino/9548329d1bba6663a63886067af5e4cb
+
+[Blynk notifications] https://community.blynk.cc/t/events-notifications-and-the-use-of-flag-variables/59822
+
+[Blynk notifications] https://github.com/blynkkk/lib-python
+
+[Bluetooth speaker] https://gist.github.com/actuino/9548329d1bba6663a63886067af5e4cb
