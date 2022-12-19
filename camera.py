@@ -17,7 +17,7 @@ def send_mail(eFrom, to, subject, text, attachment):
     # SMTP Server details
     smtpServer= 'smtp.mailgun.org'
     smtpUser='postmaster@sandbox7df3e5122abd43299ed70dcd4d221c0e.mailgun.org'
-    smtpPassword='2bb84441a7b95f617042aa26c6bec454-48d7d97c-9e8944ac'
+    smtpPassword='15808e1cc976885d70dd8b07740df923-eb38c18d-0629f056'
     port=587
 
     # open attachment and read in as MIME image
